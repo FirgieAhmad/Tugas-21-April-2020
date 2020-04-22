@@ -1,0 +1,17 @@
+#include <iostream>
+//Tugas Dirumah Tanggal 21 April 2020 --- Function
+//Nama : Firgie Ahmad --- NIM : ETE10190123
+
+using namespace std;
+
+//Membuat Function tanpa Parameter tetapi dengan nilai kembalian
+int fungsi () {
+		int a = 50, b = 100;
+		return a * b;
+}
+
+//ini adalah function utama
+int main (){
+	//pemanggilan function 
+	cout << fungsi ();
+}
