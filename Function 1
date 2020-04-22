@@ -1,0 +1,14 @@
+#include <iostream>
+//Tugas Dirumah Tanggal 21 April 2020 --- Function
+//Nama : Firgie Ahmad --- NIM : ETE10190123
+
+using namespace std;
+
+//Membuat Function Parameter dan Nilai Kembalian
+int pembagian ( int a, int b){
+	return a / b;
+}
+int main (){
+	cout << "ini adalah Function Parameter dan Nilai Kembalian" << endl;
+	cout << pembagian ( 200, 20);
+}
