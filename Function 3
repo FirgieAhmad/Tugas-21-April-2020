@@ -1,0 +1,15 @@
+#include <iostream>
+//Tugas Dirumah Tanggal 21 April 2020 --- Function
+//Nama : Firgie Ahmad --- NIM : ETE10190123
+
+using namespace std;
+
+//Membuat Function Tanpa Parameter Dan Tanpa Nilai Kembalian
+void fungsi(){
+	cout << endl;
+	cout << "Function Tanpa Parameter Dan Tanpa Nilai Return";
+	cout << endl;
+}
+int main (){
+	fungsi();
+}
