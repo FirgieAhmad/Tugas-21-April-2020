@@ -1,0 +1,15 @@
+#include <iostream>
+//Tugas Dirumah Tanggal 21 April 2020 --- Membuat Function
+//Nama : Firgie Ahmad --- NIM : ETE10190123
+
+using namespace std;
+
+//Membuat Function dengan Tipe Double dan Nilai Kembalian Double
+double hasilKali (double a, double b){
+	return a * b;
+}
+
+int main (){
+	cout << hasilKali (2.5, 5.5);
+	
+}
