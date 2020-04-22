@@ -1,0 +1,20 @@
+#include <iostream>
+//Tugas Dirumah Tanggal 21 April 2020 --- Function
+//Nama : Firgie Ahmad --- NIM : ETE10190123
+
+using namespace std;
+
+//Membuat Function dengan Parameter dan nilai kembalian
+void cetakInfo () {
+	cout << "ini adalah function dengan parameter dan nilai return" <<endl;
+}
+int hasilKali (int a, int b){
+	return a * b;
+}
+//ini adalah function utama
+int main (){
+	//pemanggilan function
+	cetakInfo();
+	//pemanggilan function hasilKali
+	cout << "hasil pemanggilan function hasilKali (200, 20) " << hasilKali( 200, 20);
+}
